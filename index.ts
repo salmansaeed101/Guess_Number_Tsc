@@ -2,7 +2,7 @@ import inquirer from "inquirer";
 import chalk from "chalk";
 import showBanner from "node-banner";
 (async () => {
-    await showBanner('Guessing Game', 'This is a suitable tagline' ,"green");
+    await showBanner('Guessing Game', 'Guess to Win' ,"green");
 })();
 let score =0;
 let play =true;

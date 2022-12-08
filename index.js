@@ -2,7 +2,7 @@ import inquirer from "inquirer";
 import chalk from "chalk";
 import showBanner from "node-banner";
 (async () => {
-    await showBanner('Guessing Game', 'This is a suitable tagline', "green");
+    await showBanner('Guessing Game', 'Guess to Win', "green");
 })();
 let score = 0;
 let play = true;
@@ -17,7 +17,7 @@ async function guessingNumber() {
         if (answer.usernumber == randomNumber) {
             console.log(chalk.green("you guess a right number"));
             score += 5;
-            console.log(chalk.yellow(`your Score is${score}`));
+            console.log(chalk.yellow(`your Score is ${score}`));
         }
         else {
             console.log(chalk.red("Try Again !!"));
