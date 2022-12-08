@@ -1,0 +1,30 @@
+{
+  "name": "guess_number_tsc",
+  "version": "1.0.0",
+  "description": "Guess_Number_Tsc",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salmansaeed101/Guess_Number_Tsc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/salmansaeed101/Guess_Number_Tsc/issues"
+  },
+  "homepage": "https://github.com/salmansaeed101/Guess_Number_Tsc#readme",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.3",
+    "@types/node": "^18.11.12"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "inquirer": "^9.1.4",
+    "node-banner": "^1.4.0"
+  }
+}
